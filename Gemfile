@@ -8,14 +8,16 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 # gem "jekyll", "~> 4.4.1"
-# This is the default theme for new Jekyll sites. You may change this to anything you like.
-gem "minima", "~> 2.5"
 # If you choose not to use GitHub Pages, uncomment the "gem "jekyll"" above and
 # comment the line below. To upgrade github-pages, run `bundle update github-pages`.
 gem "github-pages", "~> 232", group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
+  gem "jekyll-remote-theme"
+  gem "jekyll-include-cache"
   gem "jekyll-feed", "~> 0.12"
+  gem "faraday-retry"       # silences the Faraday retry middleware warning
+  gem "fiddle"            # optional: silences the Ruby 3.5 deprecation warning now
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
