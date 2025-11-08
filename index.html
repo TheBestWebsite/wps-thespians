@@ -1,7 +1,41 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
-author_profile: true
+title: "Home"
+layout: splash
+author_profile: false
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/wrinkle-saturday-splash.jpg
+excerpt: "Troupe #10290 at Willows Preparatory School in Redmond, Washington"
+feature_row:
+  - image_path: /assets/images/wrinkle-poster.jpg
+    alt: "A Wrinkle in Time"
+    title: "A Wrinkle in Time"
+    excerpt: >- 
+        <h2> Adapted by Tracy Young </h2>
+        One of literature's most enduring young heroines, Meg Murry, is back
+        —braces, stubbornness and all. Once again, she's joining forces with Mrs. Whatsit, 
+        Charles Wallace, Calvin O'Keefe and more to battle the forces of evil so she can rescue 
+        her father, save humanity and find herself. In the end, we know two things for sure: 1.  
+        Love CAN overcome evil and 2. There IS such a thing as a tesseract.<br><br>
+        <strong>Running from November 21st to November 23!</strong>
+    url: "https://willowsprepfamily.ludus.com/index.php"
+    btn_label: "Buy Tickets"
+    btn_class: "btn--primary"
+feature_row2:
+  - image_path: /assets/images/music-pre-poster.jpg
+    alt: "The Day the Music Came Back by Alvara Saar Rios"
+    title: "Student-Directed Plays!"
+    excerpt: >-
+        This year, we are doing two short, <strong>student-directed</strong> plays! 
+        These are <em>The Day the Music Came Back</em> by Alvara Saar Rios and 
+        <em>The Placeholder Play</em> by Place holder. Auditions are the week of November 24. 
+        Stop by Ms. Becky's room for more info.
 ---
+{% include feature_row type="left" %}
+
+{% include feature_row id="feature_row2" type="left" %}
+{% capture md %}
+
+{% endcapture %}
+{{ md | markdownify }}
