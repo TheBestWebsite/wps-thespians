@@ -23,6 +23,7 @@ twitter_username: username
 github_username: TheBestWebsite
 minimal_mistakes_skin: default
 search: true
+logo: "/assets/images/favicons/favicon-96x96.png"
 
 # Build settings
 markdown: kramdown
