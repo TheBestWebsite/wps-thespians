@@ -20,6 +20,8 @@ github_username: TheBestWebsite
 minimal_mistakes_skin: willows
 search: true
 logo: "/assets/images/favicons/favicon-96x96.png"
+lunr:
+  search_within_pages: true
 
 # Build settings
 markdown: kramdown
