@@ -12,30 +12,24 @@ feature_row:
     alt: "A Wrinkle in Time"
     title: "A Wrinkle in Time"
     excerpt: >- 
-        <h2> Adapted by Tracy Young </h2>
+        <h2>Adapted by Tracy Young</h2> 
         One of literature's most enduring young heroines, Meg Murry, is back
         —braces, stubbornness and all. Once again, she's joining forces with Mrs. Whatsit, 
         Charles Wallace, Calvin O'Keefe and more to battle the forces of evil so she can rescue 
         her father, save humanity and find herself. In the end, we know two things for sure: 1.  
         Love CAN overcome evil and 2. There IS such a thing as a tesseract.<br><br>
-        <strong>Running from November 21st to November 23!</strong>
+        **Running from November 21st to November 23!**
     url: "https://willowsprepfamily.ludus.com/index.php"
     btn_label: "Buy Tickets"
     btn_class: "btn--primary"
-feature_row2:
-  - image_path: /assets/images/music-pre-poster.jpg
-    alt: "The Day the Music Came Back by Alvara Saar Rios"
-    title: "Student-Directed Plays!"
-    excerpt: >-
-        This year, we are doing two short, <strong>student-directed</strong> plays! 
-        These are <em>The Day the Music Came Back</em> by Alvara Saar Rios and 
-        <em>The Placeholder Play</em> by Place holder. Auditions are the week of November 24. 
-        Stop by Ms. Becky's room for more info.
 ---
 {% include feature_row type="left" %}
+<div class="text-center" markdown="1">
 
-{% include feature_row id="feature_row2" type="left" %}
-{% capture md %}
+This year, we are doing two short, **student-directed** plays!
+These are *The Day the Music Came Back*, written by Alvara Saar Rios and directed by Aadya Goyal, and
+*Lupe & the F Train Monster*, written by Marco Ramirez and directed by Zainab Adnan. Auditions are November 24 and November 25.
 
-{% endcapture %}
-{{ md | markdownify }}
+[More info](/blog/student-directed-plays){: .btn .btn--primary}
+
+</div>
