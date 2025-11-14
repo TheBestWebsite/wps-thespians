@@ -30,6 +30,6 @@ This year, we are doing two short, **student-directed** plays!
 These are *The Day the Music Came Back*, written by Alvara Saar Rios and directed by Aadya Goyal, and
 *Lupe & the F Train Monster*, written by Marco Ramirez and directed by Zainab Adnan. Auditions are November 24 and November 25.
 
-[More info](/blog/student-directed-plays){: .btn .btn--primary}
+[More info](/posts/student-directed-plays){: .btn .btn--primary}
 
 </div>
