@@ -6,7 +6,7 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/wrinkle-saturday-splash.jpg
-excerpt: "Troupe #10290 at Willows Preparatory School in Redmond, Washington"
+excerpt: "The theatre program of Willows Preparatory School in Redmond, Washington"
 feature_row:
   - image_path: /assets/images/wrinkle-poster.jpg
     alt: "A Wrinkle in Time"
@@ -23,13 +23,10 @@ feature_row:
     btn_label: "Buy Tickets"
     btn_class: "btn--primary"
 ---
-{% include feature_row type="left" %}
 <div class="text-center" markdown="1">
 
 This year, we are doing two short, **student-directed** plays!
 These are *The Day the Music Came Back*, written by Alvara Saar Rios and directed by Aadya Goyal, and
-*Lupe & the F Train Monster*, written by Marco Ramirez and directed by Zainab Adnan. Auditions are November 24 and November 25.
-
-[More info](/posts/student-directed-plays){: .btn .btn--primary}
+*Lupe & the F Train Monster*, written by Marco Ramirez and directed by Zainab Adnan. Come back here soon for more info.
 
 </div>
