@@ -1,8 +1,6 @@
 ---
 title: "Auditions for Student Directed Short Plays!"
 date: 2025-11-13T10:33-08:00
-categories:
-  - posts
 ---
 
 We have a great new opportunity this year! Two of our High School students will be directing a 10–15-minute play for a performance in January. This is a great opportunity for students to try an afterschool mainstage show without the huge time commitment of one of our full-length plays!  

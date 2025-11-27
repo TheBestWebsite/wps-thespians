@@ -14,8 +14,6 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: WPS Thespians
-email:
-twitter_username: username
 github_username: TheBestWebsite
 minimal_mistakes_skin: willows
 search: true
@@ -97,6 +95,7 @@ defaults:
       comments: true
       share: true
       related: false
+      permalink: /posts/:title/
   # _pages
   - scope:
       path: "_pages"
