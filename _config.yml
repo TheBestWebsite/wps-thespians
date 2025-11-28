@@ -25,9 +25,7 @@ lunr:
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
-permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /blog/page:num/
+permalink: /:title/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 repository: wps-thespians/wps-thespians.github.io
 url: https://wps-thespians.github.io
@@ -49,7 +47,7 @@ include:
 
 # Plugins (previously gems:)
 plugins:
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
@@ -110,3 +108,15 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+pagination:
+  enabled: true
+  per_page: 5
+  permalink: /posts/page/:num/
+  title: ':title - page :num'
+  trail:
+    before: 2
+    after: 2
+  sort_field: 'date'
+  sort_reverse: true
+  limit: 0
