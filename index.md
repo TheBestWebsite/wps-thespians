@@ -22,6 +22,7 @@ feature_row:
     url: "https://willowsprepfamily.ludus.com/index.php"
     btn_label: "Buy Tickets"
     btn_class: "btn--primary"
+fname: "WPS Thespians"
 ---
 <div class="text-center" markdown="1">
 

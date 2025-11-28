@@ -10,6 +10,8 @@
   {% capture overlay_filter %}linear-gradient({{ overlay_filter }}, {{ overlay_filter }}){% endcapture %}
 {% endif %}
 
+{% assign fname = page.fname | default: page.title | default: site.title | markdownify | remove: "<p>" | remove: "</p>" %}
+
 {% if page.header.image_description %}
   {% assign image_description = page.header.image_description %}
 {% else %}
@@ -26,10 +28,8 @@
       <h1 id="page-title" class="page__title" itemprop="headline">
         {% if paginator and site.paginate_show_page_num %}
           {{ site.title }}{% unless paginator.page == 1 %} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}
-        {% elsif page.title == "Home" %}
-          {{ site.title | markdownify | remove: "<p>" | remove: "</p>" }}
         {% else %}
-          {{ page.title | default: site.title | markdownify | remove: "<p>" | remove: "</p>" }}
+          {{ fname }}
         {% endif %}
       </h1>
       {% if page.tagline %}
