@@ -28,6 +28,13 @@ fname: "WPS Thespians"
 
 This year, we are doing two short, **student-directed** plays!
 These are *The Day the Music Came Back*, written by Alvara Saar Rios and directed by Aadya Goyal, and
-*Lupe & the F Train Monster*, written by Marco Ramirez and directed by Zainab Adnan. Come back here soon for more info.
+*Lupe & the F Train Monster*, written by Marco Ramirez and directed by Zainab Adnan. Signups for Tech are live now!
+
+[Tech signups](https://forms.office.com/Pages/ResponsePage.aspx?id=gnAacDfDMUaXzy2FEBCXh_bIeMEegZ5Cv-_YI2ahecVUM0Q5MzdFWjBIRDhPUUtFMFFGOUEyVUdFUi4u&origin=QRCode){: .btn .btn--primary}  
+
+
+
+Our amazing Acting class is also doing a one-act festival! Tech signups and a stage manager are needed. Sign up here:
+[Tech and Stage Manager signups](https://forms.office.com/Pages/ResponsePage.aspx?id=gnAacDfDMUaXzy2FEBCXh_bIeMEegZ5Cv-_YI2ahecVUM0Q5MzdFWjBIRDhPUUtFMFFGOUEyVUdFUi4u&origin=QRCode){: .btn .btn--primary}
 
 </div>
